@@ -12,7 +12,8 @@ export class PropertyBindingComponent implements OnInit {
 
   urlImagen: string; // Para que no de error setear strict a false en el archivo tsconfig.json
 
-  constructor() { }
+  constructor() {
+   }
 
   ngOnInit(): void {
     this.cambiarLogo();
